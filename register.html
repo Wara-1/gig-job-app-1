@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ลงทะเบียน</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>ลงทะเบียน</h2>
+  <form onsubmit="registerUser(event)">
+    <label>ชื่อผู้ใช้: <input type="text" id="username" required></label><br>
+    <label>บทบาท:
+      <select id="role">
+        <option value="employer">ผู้ว่าจ้าง</option>
+        <option value="freelancer">ผู้หางาน</option>
+      </select>
+    </label><br>
+    <button type="submit">สมัคร</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

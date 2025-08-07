@@ -1,0 +1,11 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+label {
+  display: block;
+  margin: 10px 0;
+}
+nav a {
+  margin-right: 15px;
+}
